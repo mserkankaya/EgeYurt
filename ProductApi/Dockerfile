@@ -1,22 +1,28 @@
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 5000
+EXPOSE 5001
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /app
-
-
-COPY ProductApi/*.csproj ProductApi/
-COPY ProductApi.Business/*.csproj ProductApi.Business/
-COPY ProductApi.DataAccess/*.csproj ProductApi.DataAccess/
-COPY ProductApi.Dto/*.csproj ProductApi.Dto/
-COPY ProductApi.Entity/*.csproj ProductApi.Entity/
-RUN dotnet restore ProductApi/ProductApi.csproj
-
-
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["ProductApi/ProductApi.csproj", "ProductApi/"]
+COPY ["ProductApi.Business/ProductApi.Business.csproj", "ProductApi.Business/"]
+COPY ["ProductApi.DataAccess/ProductApi.DataAccess.csproj", "ProductApi.DataAccess/"]
+COPY ["ProductApi.Entity/ProductApi.Entity.csproj", "ProductApi.Entity/"]
+COPY ["ProductApi.Dto/ProductApi.Dto.csproj", "ProductApi.Dto/"]
+RUN dotnet restore "./ProductApi/ProductApi.csproj"
 COPY . .
-RUN dotnet publish ProductApi/ProductApi.csproj -c Release -o out
+WORKDIR "/src/ProductApi"
+RUN dotnet build "./ProductApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./ProductApi.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
+FROM base AS final
 WORKDIR /app
-COPY --from=build /app/out .
-EXPOSE 80
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ProductApi.dll"]

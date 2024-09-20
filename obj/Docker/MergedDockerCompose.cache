@@ -1,0 +1,90 @@
+name: dockercompose8926257356393625280
+services:
+  consume:
+    build:
+      context: C:\Users\Developer\Desktop\ProductApi\EgeYurt
+      dockerfile: Consume/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:5101;http://+:5100
+    image: consume
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5000
+        published: "5100"
+        protocol: tcp
+      - mode: ingress
+        target: 5001
+        published: "5101"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Developer\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Developer\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  mssql:
+    container_name: mssql-server
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Serkan1234
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: mssql-data
+        target: /var/opt/mssql
+        volume: {}
+  productapi:
+    build:
+      context: C:\Users\Developer\Desktop\ProductApi\EgeYurt
+      dockerfile: ProductApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:5001;http://+:5000
+    image: productapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5000
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 5001
+        published: "5001"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Developer\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Developer\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose8926257356393625280_default
+volumes:
+  mssql-data:
+    name: dockercompose8926257356393625280_mssql-data

@@ -23,7 +23,7 @@
         public async Task<string> LoginAsync(string username, string password)
 		{
 			var loginDto = new { username, password };
-            var response = await _httpClient.PostAsJsonAsync("https://localhost:7268/api/Auth/login", loginDto);
+            var response = await _httpClient.PostAsJsonAsync("https://localhost:5001/api/Auth/login", loginDto);
             response.EnsureSuccessStatusCode();
 			var result = await response.Content.ReadFromJsonAsync<ResponseDto>();
 			return result.Token;

@@ -1,3 +1,18 @@
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\bin\Debug\net6.0\ProductApi.Entity.deps.json
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\bin\Debug\net6.0\ProductApi.Entity.runtimeconfig.json
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\bin\Debug\net6.0\ProductApi.Entity.dll
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\bin\Debug\net6.0\ProductApi.Entity.pdb
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.csproj.AssemblyReference.cache
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.AssemblyInfoInputs.cache
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.AssemblyInfo.cs
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.sourcelink.json
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.dll
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\refint\ProductApi.Entity.dll
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.pdb
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.genruntimeconfig.cache
+C:\Users\Developer\Desktop\EgeYurt\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ref\ProductApi.Entity.dll
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\bin\Debug\net6.0\ProductApi.Entity.deps.json
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\bin\Debug\net6.0\ProductApi.Entity.runtimeconfig.json
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\bin\Debug\net6.0\ProductApi.Entity.dll
@@ -7,6 +22,7 @@ C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.AssemblyInfoInputs.cache
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.AssemblyInfo.cs
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.sourcelink.json
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.dll
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\refint\ProductApi.Entity.dll
 C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Entity\obj\Debug\net6.0\ProductApi.Entity.pdb

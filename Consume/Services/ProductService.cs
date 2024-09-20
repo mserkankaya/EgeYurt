@@ -21,7 +21,7 @@ namespace Consume.Services
         {
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _httpClient.GetAsync("https://localhost:7268/api/Product");
+            var response = await _httpClient.GetAsync("/api/Product");
             if (!response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
@@ -42,7 +42,7 @@ namespace Consume.Services
         {
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _httpClient.PostAsJsonAsync("https://localhost:7268/api/product", product);
+            var response = await _httpClient.PostAsJsonAsync("/api/product", product);
             if (!response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
@@ -61,7 +61,7 @@ namespace Consume.Services
         {
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _httpClient.PutAsJsonAsync($"https://localhost:7268/api/product/{product.Id}", product);
+            var response = await _httpClient.PutAsJsonAsync($"/api/product/{product.Id}", product);
             if (!response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
@@ -80,7 +80,7 @@ namespace Consume.Services
         {
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await _httpClient.DeleteAsync($"https://localhost:7268/api/product/{id}");
+            var response = await _httpClient.DeleteAsync($"/api/product/{id}");
             if (!response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();

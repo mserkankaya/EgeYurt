@@ -1,24 +1,34 @@
+version: '3.4'
 
 services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: mssql-server
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Serkan1234
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql-data:/var/opt/mssql
+
   productapi:
+    image: ${DOCKER_REGISTRY-}productapi
     build:
-      context: . 
+      context: .
       dockerfile: ProductApi/Dockerfile
     ports:
-      - "5001:80"
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection="Server=localhost,1445;Database=EgeYurt;User=sa;Password=Mskdev2363+"
+      - "5000:5000"
+      - "5001:5001"
 
   consume:
+    image: ${DOCKER_REGISTRY-}consume
     build:
-      context: . 
+      context: .
       dockerfile: Consume/Dockerfile
     ports:
-      - "5002:80"
-    volumes:
-      - ./keys:/app/keys
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection="Server=localhost,1445;Database=EgeYurt;User=sa;Password=Mskdev2363+"
-      - AuthService__BaseUrl="https://localhost:7268/api/Auth" 
+      - "5100:5000"
+      - "5101:5001"
+
+volumes:
+  mssql-data:

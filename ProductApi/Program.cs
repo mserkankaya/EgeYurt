@@ -2,6 +2,7 @@ using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.HttpLogging;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ProductApi.Business.Interfaces;
@@ -12,6 +13,7 @@ using ProductApi.Business.Validation;
 using ProductApi.DataAccess.Concrete;
 using ProductApi.DataAccess.Repositories;
 using ProductApi.Dto.Product;
+using ProductApi.Extensions;
 using Serilog;
 using Serilog.Events;
 using System.Text;
@@ -72,11 +74,10 @@ builder.Services.AddHttpLogging(logging =>
 });
 
 
-//Docker için appsettings içerisinde kullanýlan connection string uymadý, Context nesnesi içine ekledim. o sebeple burayý kapadým.
 
-//builder.Services.AddDbContext<Context>(options =>
-//	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddDbContext<EgeYurtContext>();
+builder.Services.AddDbContext<EgeYurtContext>(options =>
+	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<EgeYurtContext>();
 
 //AddScoped: Her bir istek için yeni bir örnek oluþturur.
 //AddSingleton: Uygulama ömrü boyunca tek bir örnek kullanýr..
@@ -132,6 +133,7 @@ if (app.Environment.IsDevelopment())
 {
 	app.UseSwagger();
 	app.UseSwaggerUI();
+	app.ApplyMigrations();
 }
 
 app.UseHttpsRedirection();

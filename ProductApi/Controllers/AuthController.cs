@@ -46,7 +46,7 @@ namespace ProductApi.Controllers
 			if (user == null)
 			{
 				Log.Warning("Giriş başarısız: {Username}", loginDto.Username);
-				return Unauthorized(); 
+				return BadRequest(); 
 			}
 			var token = GenerateJwtToken(user);
 			Log.Information("Kullanıcı başarıyla giriş yaptı: {Username},Token: {Token}", user.Username);

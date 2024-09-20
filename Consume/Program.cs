@@ -35,11 +35,11 @@ builder.Services.AddDataProtection()
 // AuthService ve ProductService için adresler.
 builder.Services.AddHttpClient<AuthService>(client =>
 {
-    client.BaseAddress = new Uri("http://productapi:80");
+    client.BaseAddress = new Uri("http://productapi:5001");
 });
 builder.Services.AddHttpClient<ProductService>(client =>
 {
-    client.BaseAddress = new Uri("http://productapi:80");
+    client.BaseAddress = new Uri("http://productapi:5001");
 });
 
 var app = builder.Build();

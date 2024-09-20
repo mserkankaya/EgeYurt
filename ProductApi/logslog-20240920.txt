@@ -1,0 +1,253 @@
+2024-09-20 21:48:21.504 +00:00 [INF] Uygulama başlatılıyor...
+2024-09-20 21:48:21.802 +00:00 [INF] Now listening on: https://[::]:5001
+2024-09-20 21:48:21.806 +00:00 [INF] Now listening on: http://[::]:5000
+2024-09-20 21:48:21.809 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 21:48:21.810 +00:00 [INF] Hosting environment: Development
+2024-09-20 21:48:21.810 +00:00 [INF] Content root path: /app/
+2024-09-20 21:48:22.131 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2024-09-20 21:48:22.196 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 67.0281ms
+2024-09-20 21:48:22.206 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2024-09-20 21:48:22.263 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 57.0080ms
+2024-09-20 21:48:22.276 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2024-09-20 21:48:22.276 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2024-09-20 21:48:22.276 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2024-09-20 21:48:22.289 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-20 21:48:22.290 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 144929 text/css 13.7312ms
+2024-09-20 21:48:22.355 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-20 21:48:22.361 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 85.0239ms
+2024-09-20 21:48:22.388 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-20 21:48:22.389 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 112.7620ms
+2024-09-20 21:48:22.487 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2024-09-20 21:48:22.535 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2024-09-20 21:48:22.536 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-20 21:48:22.537 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 2.0009ms
+2024-09-20 21:48:22.581 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.2309ms
+2024-09-20 21:48:28.958 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2024-09-20 21:48:28.968 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 307 0 - 9.9491ms
+2024-09-20 21:48:28.972 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2024-09-20 21:48:29.092 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 120.4196ms
+2024-09-20 22:09:08.341 +00:00 [INF] Uygulama başlatılıyor...
+2024-09-20 22:09:08.648 +00:00 [INF] Now listening on: https://[::]:5001
+2024-09-20 22:09:08.652 +00:00 [INF] Now listening on: http://[::]:5000
+2024-09-20 22:09:08.655 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 22:09:08.655 +00:00 [INF] Hosting environment: Development
+2024-09-20 22:09:08.655 +00:00 [INF] Content root path: /app/
+2024-09-20 22:09:08.895 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2024-09-20 22:09:08.996 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 105.2245ms
+2024-09-20 22:09:09.109 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2024-09-20 22:09:09.197 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.9178ms
+2024-09-20 22:14:19.207 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Auth/login application/json 51
+2024-09-20 22:14:19.214 +00:00 [INF] CORS policy execution successful.
+2024-09-20 22:14:19.321 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.AuthController.Login (ProductApi)'
+2024-09-20 22:14:19.337 +00:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ProductApi.Dto.Login.LoginDto) on controller ProductApi.Controllers.AuthController (ProductApi).
+2024-09-20 22:14:19.367 +00:00 [INF] Kullanıcı girişi denemesi: admin
+2024-09-20 22:14:19.480 +00:00 [INF] Kullanıcı başarıyla giriş yaptı: admin,Token: {Token}
+2024-09-20 22:14:19.485 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 22:14:19.494 +00:00 [INF] Executed action ProductApi.Controllers.AuthController.Login (ProductApi) in 152.2123ms
+2024-09-20 22:14:19.499 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.AuthController.Login (ProductApi)'
+2024-09-20 22:14:19.499 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Auth/login application/json 51 - 200 - application/json;+charset=utf-8 291.9402ms
+2024-09-20 22:55:54.937 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-09-20 22:55:55.118 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 22:57:30.478 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-09-20 22:57:30.648 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 22:59:25.047 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-09-20 22:59:25.217 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 22:59:25.730 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-09-20 22:59:26.064 +00:00 [INF] Executed DbCommand (281ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EgeYurt];
+2024-09-20 22:59:26.172 +00:00 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EgeYurt] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-09-20 22:59:26.196 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-20 22:59:26.293 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-09-20 22:59:26.295 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-20 22:59:26.321 +00:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-20 22:59:26.329 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-20 22:59:26.346 +00:00 [INF] Applying migration '20240918105336_mig_add_first'.
+2024-09-20 22:59:26.377 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Brand] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [StockQuantity] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2024-09-20 22:59:26.379 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240918105336_mig_add_first', N'6.0.33');
+2024-09-20 22:59:26.391 +00:00 [INF] Applying migration '20240918105407_mig_add_first1'.
+2024-09-20 22:59:26.393 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240918105407_mig_add_first1', N'6.0.33');
+2024-09-20 22:59:26.396 +00:00 [INF] Applying migration '20240919192713_mig_docker_up'.
+2024-09-20 22:59:26.398 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240919192713_mig_docker_up', N'6.0.33');
+2024-09-20 22:59:26.401 +00:00 [INF] Applying migration '20240919194429_mig_docker_up1'.
+2024-09-20 22:59:26.403 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240919194429_mig_docker_up1', N'6.0.33');
+2024-09-20 22:59:26.477 +00:00 [INF] Uygulama başlatılıyor...
+2024-09-20 22:59:26.583 +00:00 [INF] Now listening on: https://[::]:5001
+2024-09-20 22:59:26.583 +00:00 [INF] Now listening on: http://[::]:5000
+2024-09-20 22:59:26.586 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 22:59:26.586 +00:00 [INF] Hosting environment: Development
+2024-09-20 22:59:26.586 +00:00 [INF] Content root path: /app/
+2024-09-20 22:59:27.375 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2024-09-20 22:59:27.474 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 104.4833ms
+2024-09-20 22:59:27.529 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2024-09-20 22:59:27.621 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.7458ms
+2024-09-20 23:00:12.218 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2024-09-20 23:00:12.233 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 307 0 - 14.1210ms
+2024-09-20 23:00:12.260 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2024-09-20 23:00:12.444 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 205.7807ms
+2024-09-20 23:00:43.369 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Auth/login application/json 51
+2024-09-20 23:00:43.376 +00:00 [INF] CORS policy execution successful.
+2024-09-20 23:00:43.380 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.AuthController.Login (ProductApi)'
+2024-09-20 23:00:43.400 +00:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ProductApi.Dto.Login.LoginDto) on controller ProductApi.Controllers.AuthController (ProductApi).
+2024-09-20 23:00:43.426 +00:00 [INF] Kullanıcı girişi denemesi: admin
+2024-09-20 23:00:43.538 +00:00 [INF] Kullanıcı başarıyla giriş yaptı: admin,Token: {Token}
+2024-09-20 23:00:43.542 +00:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 23:00:43.551 +00:00 [INF] Executed action ProductApi.Controllers.AuthController.Login (ProductApi) in 146.0503ms
+2024-09-20 23:00:43.553 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.AuthController.Login (ProductApi)'
+2024-09-20 23:00:43.554 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Auth/login application/json 51 - 200 - application/json;+charset=utf-8 183.9983ms
+2024-09-20 23:00:53.208 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Product - -
+2024-09-20 23:00:53.276 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.GetProducts (ProductApi)'
+2024-09-20 23:00:53.283 +00:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi.Entity.Concrete.Product]]] GetProducts() on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:00:53.286 +00:00 [INF] Tüm ürünler getiriliyor.
+2024-09-20 23:00:53.297 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:00:53.549 +00:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Brand], [p].[CreatedDate], [p].[Description], [p].[ImageUrl], [p].[IsActive], [p].[Name], [p].[Price], [p].[StockQuantity], [p].[UpdatedDate]
+FROM [Products] AS [p]
+2024-09-20 23:00:53.573 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi.Entity.Concrete.Product, ProductApi.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 23:00:53.577 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.GetProducts (ProductApi) in 293.1812ms
+2024-09-20 23:00:53.579 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.GetProducts (ProductApi)'
+2024-09-20 23:00:53.589 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Product - - - 200 - application/json;+charset=utf-8 381.1176ms
+2024-09-20 23:03:29.046 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 358
+2024-09-20 23:03:29.088 +00:00 [INF] CORS policy execution successful.
+2024-09-20 23:03:29.090 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:03:29.093 +00:00 [INF] Route matched with {action = "PostProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostProduct(ProductApi.Dto.Product.ProductDto) on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:03:29.151 +00:00 [INF] Yeni ürün ekleniyor: Akıllı Telefon
+2024-09-20 23:03:29.182 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:03:29.415 +00:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Brand], [CreatedDate], [Description], [ImageUrl], [IsActive], [Name], [Price], [StockQuantity], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-09-20 23:03:29.466 +00:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductApi.Entity.Concrete.Product'.
+2024-09-20 23:03:29.492 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.PostProduct (ProductApi) in 399.5426ms
+2024-09-20 23:03:29.493 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:03:29.494 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 358 - 201 - application/json;+charset=utf-8 448.2443ms
+2024-09-20 23:03:34.394 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Product - -
+2024-09-20 23:03:34.395 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.GetProducts (ProductApi)'
+2024-09-20 23:03:34.396 +00:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi.Entity.Concrete.Product]]] GetProducts() on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:03:34.398 +00:00 [INF] Tüm ürünler getiriliyor.
+2024-09-20 23:03:34.399 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:03:34.452 +00:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Brand], [p].[CreatedDate], [p].[Description], [p].[ImageUrl], [p].[IsActive], [p].[Name], [p].[Price], [p].[StockQuantity], [p].[UpdatedDate]
+FROM [Products] AS [p]
+2024-09-20 23:03:34.488 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi.Entity.Concrete.Product, ProductApi.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 23:03:34.489 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.GetProducts (ProductApi) in 92.9059ms
+2024-09-20 23:03:34.489 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.GetProducts (ProductApi)'
+2024-09-20 23:03:34.489 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Product - - - 200 - application/json;+charset=utf-8 95.9596ms
+2024-09-20 23:04:29.337 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 445
+2024-09-20 23:04:29.337 +00:00 [INF] CORS policy execution successful.
+2024-09-20 23:04:29.338 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:04:29.338 +00:00 [INF] Route matched with {action = "PostProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostProduct(ProductApi.Dto.Product.ProductDto) on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:04:29.340 +00:00 [INF] Yeni ürün ekleniyor: Dizüstü Bilgisayar
+2024-09-20 23:04:29.341 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:04:29.393 +00:00 [INF] Executed DbCommand (48ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Brand], [CreatedDate], [Description], [ImageUrl], [IsActive], [Name], [Price], [StockQuantity], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-09-20 23:04:29.442 +00:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductApi.Entity.Concrete.Product'.
+2024-09-20 23:04:29.442 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.PostProduct (ProductApi) in 104.0539ms
+2024-09-20 23:04:29.443 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:04:29.444 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 445 - 201 - application/json;+charset=utf-8 127.6352ms
+2024-09-20 23:05:22.560 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 417
+2024-09-20 23:05:22.560 +00:00 [INF] CORS policy execution successful.
+2024-09-20 23:05:22.561 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:05:22.561 +00:00 [INF] Route matched with {action = "PostProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostProduct(ProductApi.Dto.Product.ProductDto) on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:05:22.563 +00:00 [INF] Yeni ürün ekleniyor: Kablosuz Kulaklık
+2024-09-20 23:05:22.564 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:05:22.598 +00:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Brand], [CreatedDate], [Description], [ImageUrl], [IsActive], [Name], [Price], [StockQuantity], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-09-20 23:05:22.623 +00:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductApi.Entity.Concrete.Product'.
+2024-09-20 23:05:22.624 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.PostProduct (ProductApi) in 61.7858ms
+2024-09-20 23:05:22.624 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:05:22.624 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 417 - 201 - application/json;+charset=utf-8 64.8781ms
+2024-09-20 23:06:52.952 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 418
+2024-09-20 23:06:52.973 +00:00 [INF] CORS policy execution successful.
+2024-09-20 23:06:52.973 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:06:52.974 +00:00 [INF] Route matched with {action = "PostProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostProduct(ProductApi.Dto.Product.ProductDto) on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:06:52.975 +00:00 [INF] Yeni ürün ekleniyor: 4K LED TV
+2024-09-20 23:06:52.975 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:06:53.050 +00:00 [INF] Executed DbCommand (71ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Brand], [CreatedDate], [Description], [ImageUrl], [IsActive], [Name], [Price], [StockQuantity], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-09-20 23:06:53.075 +00:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductApi.Entity.Concrete.Product'.
+2024-09-20 23:06:53.075 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.PostProduct (ProductApi) in 101.2305ms
+2024-09-20 23:06:53.076 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:06:53.076 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 418 - 201 - application/json;+charset=utf-8 124.4444ms
+2024-09-20 23:07:37.658 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Product application/json 408
+2024-09-20 23:07:37.659 +00:00 [INF] CORS policy execution successful.
+2024-09-20 23:07:37.659 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:07:37.660 +00:00 [INF] Route matched with {action = "PostProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PostProduct(ProductApi.Dto.Product.ProductDto) on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:07:37.661 +00:00 [INF] Yeni ürün ekleniyor: Akıllı Saat
+2024-09-20 23:07:37.662 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:07:37.779 +00:00 [INF] Executed DbCommand (92ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (Size = 4000), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Brand], [CreatedDate], [Description], [ImageUrl], [IsActive], [Name], [Price], [StockQuantity], [UpdatedDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-09-20 23:07:37.785 +00:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductApi.Entity.Concrete.Product'.
+2024-09-20 23:07:37.785 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.PostProduct (ProductApi) in 125.0409ms
+2024-09-20 23:07:37.785 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.PostProduct (ProductApi)'
+2024-09-20 23:07:37.786 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Product application/json 408 - 201 - application/json;+charset=utf-8 127.8902ms
+2024-09-20 23:07:41.845 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Product - -
+2024-09-20 23:07:41.846 +00:00 [INF] Executing endpoint 'ProductApi.Controllers.ProductController.GetProducts (ProductApi)'
+2024-09-20 23:07:41.847 +00:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi.Entity.Concrete.Product]]] GetProducts() on controller ProductApi.Controllers.ProductController (ProductApi).
+2024-09-20 23:07:41.847 +00:00 [INF] Tüm ürünler getiriliyor.
+2024-09-20 23:07:41.848 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EgeYurtContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-09-20 23:07:41.898 +00:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Brand], [p].[CreatedDate], [p].[Description], [p].[ImageUrl], [p].[IsActive], [p].[Name], [p].[Price], [p].[StockQuantity], [p].[UpdatedDate]
+FROM [Products] AS [p]
+2024-09-20 23:07:41.899 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi.Entity.Concrete.Product, ProductApi.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 23:07:41.900 +00:00 [INF] Executed action ProductApi.Controllers.ProductController.GetProducts (ProductApi) in 54.6627ms
+2024-09-20 23:07:41.900 +00:00 [INF] Executed endpoint 'ProductApi.Controllers.ProductController.GetProducts (ProductApi)'
+2024-09-20 23:07:41.901 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Product - - - 200 - application/json;+charset=utf-8 57.4297ms
