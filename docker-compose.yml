@@ -1,0 +1,24 @@
+
+services:
+  productapi:
+    build:
+      context: . 
+      dockerfile: ProductApi/Dockerfile
+    ports:
+      - "5001:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection="Server=localhost,1445;Database=EgeYurt;User=sa;Password=Mskdev2363+"
+
+  consume:
+    build:
+      context: . 
+      dockerfile: Consume/Dockerfile
+    ports:
+      - "5002:80"
+    volumes:
+      - ./keys:/app/keys
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection="Server=localhost,1445;Database=EgeYurt;User=sa;Password=Mskdev2363+"
+      - AuthService__BaseUrl="https://localhost:7268/api/Auth" 

@@ -1,0 +1,91 @@
+﻿@model Consume.Models.LoginModel
+
+@section Styles {
+    <style>
+        body {
+            background-color: #f4f4f4;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+            margin: auto; /* Ortada durmasını sağlar */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+        .error-message {
+            color: red;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+}
+
+<div class="login-container">
+    <h1>Giriş Yap</h1>
+    <form asp-action="Login" method="post">
+        <div>
+            <label for="Username">Kullanıcı Adı:</label>
+            <input type="text" asp-for="Username" placeholder="Kullanıcı adınızı girin" />
+            <span asp-validation-for="Username" class="error-message"></span>
+        </div>
+        <div>
+            <label for="Password">Şifre:</label>
+            <input type="password" asp-for="Password" placeholder="Şifrenizi girin" />
+            <span asp-validation-for="Password" class="error-message"></span>
+        </div>
+        <button type="submit">Giriş Yap</button>
+    </form>
+</div>

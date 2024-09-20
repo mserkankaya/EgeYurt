@@ -1,0 +1,12 @@
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\bin\Debug\net6.0\ProductApi.Dto.deps.json
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\bin\Debug\net6.0\ProductApi.Dto.dll
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\bin\Debug\net6.0\ProductApi.Dto.pdb
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ProductApi.Dto.csproj.AssemblyReference.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ProductApi.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ProductApi.Dto.AssemblyInfoInputs.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ProductApi.Dto.AssemblyInfo.cs
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ProductApi.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ProductApi.Dto.dll
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\refint\ProductApi.Dto.dll
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ProductApi.Dto.pdb
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.Dto\obj\Debug\net6.0\ref\ProductApi.Dto.dll

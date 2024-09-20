@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Consume.Models.Product>
+
+<h1>Ürünler</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Marka</th>
+            <th>Açıklama</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Brand</td>
+                    <td>@product.Description</td>
+                    <td>@product.Price</td>
+                    <td>@product.StockQuantity</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">Hiç ürün bulunamadı.</td>
+            </tr>
+        }
+    </tbody>
+</table>

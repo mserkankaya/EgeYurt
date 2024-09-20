@@ -1,0 +1,91 @@
+﻿@model Consume.Models.Product
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="url"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Yeni Ürün Ekle</h1>
+        <form asp-action="Create" method="post">
+            <label for="Name">Ürün Adı:</label>
+            <input type="text" asp-for="Name" required />
+
+            <label for="Brand">Marka:</label>
+            <input type="text" asp-for="Brand" required />
+
+            <label for="Description">Açıklama:</label>
+            <input type="text" asp-for="Description" required />
+
+            <label for="Price">Fiyat:</label>
+            <input type="number" asp-for="Price" step="0.01" required />
+
+            <label for="StockQuantity">Stok Miktarı:</label>
+            <input type="number" asp-for="StockQuantity" required />
+
+            <label for="ImageUrl">Resim URL'si:</label>
+            <input type="url" asp-for="ImageUrl" />
+
+            <button type="submit">Ekle</button>
+        </form>
+    </div>
+
+</body>
+</html>

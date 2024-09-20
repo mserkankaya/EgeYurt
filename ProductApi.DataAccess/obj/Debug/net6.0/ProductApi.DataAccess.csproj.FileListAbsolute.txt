@@ -1,0 +1,17 @@
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\bin\Debug\net6.0\ProductApi.DataAccess.deps.json
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\bin\Debug\net6.0\ProductApi.DataAccess.runtimeconfig.json
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\bin\Debug\net6.0\ProductApi.DataAccess.dll
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\bin\Debug\net6.0\ProductApi.DataAccess.pdb
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\bin\Debug\net6.0\ProductApi.Entity.dll
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\bin\Debug\net6.0\ProductApi.Entity.pdb
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.AssemblyInfo.cs
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductA.998C321A.Up2Date
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.dll
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\refint\ProductApi.DataAccess.dll
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.pdb
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ProductApi.DataAccess.genruntimeconfig.cache
+C:\Users\Developer\Desktop\ProductApi\EgeYurt\ProductApi.DataAccess\obj\Debug\net6.0\ref\ProductApi.DataAccess.dll
